@@ -1,0 +1,15 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "../node-v7.0.0-nightly20160604de0aa23ad7-darwin-x64/bin/node -e \"console.log('Hello from Node.js ' + process.version)\"",
+    "start": "../node-v7.0.0-nightly20160604de0aa23ad7-darwin-x64/bin/node --inspect index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
